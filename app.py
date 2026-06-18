@@ -14,6 +14,7 @@ def index():
     <head><title>CI/CD Demo App</title></head>
     <body style="font-family: Arial, sans-serif; text-align: center; padding: 50px;">
         <h1>Присяжнюк В. В. Іа-з31!</h1>
+	<h2>Додаємо текст для демонстрації автоматичного оновлення сторінки</h2>
         <p>Версія застосунку: <b>{APP_VERSION}</b></p>
         <p>Hostname контейнера: <b>{socket.gethostname()}</b></p>
         <p>Поточний час на сервері: {datetime.datetime.now()}</p>
